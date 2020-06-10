@@ -1,0 +1,88 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #root {
+    height: 100vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .joinOuterContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    background-color: wheat;
+    border-bottom: 40px solid rgb(148, 18, 72);
+  }
+  
+  .joinInnerContainer {
+    width: 20%;
+    border-bottom: 0px solid rgb(148, 18, 72);
+    
+  }
+  
+  .joinInput {
+    border-radius: 5px;
+    padding: 15px 20px;
+    width: 100%;
+    border: 0px solid rgb(148, 18, 72);
+  }
+  
+  .heading {
+      color: #fff !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: rgb(148, 18, 72);
+      padding: 20px;
+      border-radius: 5px;
+      display: inline-block;
+      border: none;
+      width: 100%;
+      color: rgb(148, 18, 72);
+      font-size: 1em;
+      padding-bottom: 10px;
+      border-bottom: 5px solid rgb(148, 18, 72);
+  }
+  
+  .button {
+      color: #fff !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: rgb(148, 18, 72);
+      padding: 20px;
+      border-radius: 5px;
+      display: inline-block;
+      border: none;
+      width: 100%;
+      color: rgb(148, 18, 72);
+      font-size: 1em;
+      padding-bottom: 15px;
+      border-bottom: 3px solid rgb(148, 18, 72);
+      
+  }
+  .mt-20 {
+    margin-top: 30px;
+  }
+ 
+  @media (min-width: 320px) and (max-width: 480px) {
+    .joinOuterContainer {
+      height: 100%;
+    }
+  
+    .joinInnerContainer {
+      width: 90%;
+    }
+  
+  
+  }
+  
+  button:focus {
+    outline: 0;
+  }
